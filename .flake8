@@ -1,0 +1,13 @@
+[flake8]
+extend-ignore = E203, E741, W291, F841
+exclude = 
+    .git,
+    __pycache__,
+    social_network_backend/api/migrations,
+    social_network_backend/social_network_backend/asgi.py,
+    social_network_backend/social_network_backend/settings.py,
+    social_network_backend/social_network_backend/wsgi.py,
+    social_network_backend/manage.py,
+    social_network_backend/api/urls.py,
+    social_network_backend/api/views.py,
+max-complexity = 10
